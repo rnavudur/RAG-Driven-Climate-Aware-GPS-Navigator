@@ -106,13 +106,6 @@ The API will be available at `http://localhost:8000`
 └── README.md             # This file
 ```
 
-## API Endpoints
-
-- `GET /api/v1/health` - Health check
-- `POST /api/v1/routing/calculate` - Calculate route
-- `GET /api/v1/hazards/types` - Get hazard types
-- `GET /api/v1/routing/nearby-hazards` - Get nearby hazards
-
 ## Current Status
 
 - ✅ **Frontend**: Complete React application with modern UI
@@ -121,15 +114,3 @@ The API will be available at `http://localhost:8000`
 - ✅ **Styling**: Professional design with animations
 - 🔄 **Data Integration**: Mock data (ready for real APIs)
 - 🔄 **Routing Engine**: Basic structure (ready for pgRouting)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
