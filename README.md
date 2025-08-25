@@ -2,7 +2,7 @@
 
 A modern, intelligent GPS navigation system that routes users through environmental hazards using real-time climate data and advanced risk assessment algorithms.
 
-## 🌟 Features
+## Features
 
 - **Hazard-Aware Routing**: Avoids flood zones, weather warnings, and other environmental risks
 - **Real-Time Data**: Integrates with NWS, NOAA, USGS, and FEMA APIs
@@ -11,7 +11,6 @@ A modern, intelligent GPS navigation system that routes users through environmen
 - **Modern UI**: Professional, animated interface with smooth interactions
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -61,7 +60,7 @@ The React app will automatically reload when you make changes to the code.
 
 The API will be available at `http://localhost:8000`
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend (React)
 - **React 18** with modern hooks and functional components
@@ -82,14 +81,6 @@ The API will be available at `http://localhost:8000`
 - **USGS**: Water services and river data
 - **FEMA NFHL**: Flood hazard data
 - **OpenStreetMap**: Base mapping and routing
-
-## 🎨 UI Components
-
-- **Animated Header**: Gradient background with shifting colors
-- **Control Panel**: Route planning with hazard toggles
-- **Interactive Map**: Multiple style options with 3D effects
-- **Route Information**: Real-time statistics and hazard details
-- **Responsive Design**: Mobile-first approach with breakpoints
 
 ## 🔧 Development
 
@@ -115,21 +106,14 @@ The API will be available at `http://localhost:8000`
 └── README.md             # This file
 ```
 
-### Customization
-
-- **Map Styles**: Modify `mapStyles` object in `App.js`
-- **Hazard Types**: Update hazard toggles in the state
-- **API Endpoints**: Configure backend routes in `main_simple.py`
-- **Styling**: Customize with styled-components in each component
-
-## 🌐 API Endpoints
+## API Endpoints
 
 - `GET /api/v1/health` - Health check
 - `POST /api/v1/routing/calculate` - Calculate route
 - `GET /api/v1/hazards/types` - Get hazard types
 - `GET /api/v1/routing/nearby-hazards` - Get nearby hazards
 
-## 🚧 Current Status
+## Current Status
 
 - ✅ **Frontend**: Complete React application with modern UI
 - ✅ **Backend**: Basic FastAPI structure with mock endpoints
@@ -138,15 +122,7 @@ The API will be available at `http://localhost:8000`
 - 🔄 **Data Integration**: Mock data (ready for real APIs)
 - 🔄 **Routing Engine**: Basic structure (ready for pgRouting)
 
-## 🎯 Next Steps
-
-1. **Real Data Integration**: Connect to actual NWS, NOAA, USGS APIs
-2. **Advanced Routing**: Implement pgRouting with dynamic cost functions
-3. **RAG System**: Add vector embeddings for route explanations
-4. **Testing**: Comprehensive test coverage for all components
-5. **Deployment**: Production deployment with monitoring
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -157,14 +133,3 @@ The API will be available at `http://localhost:8000`
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For questions or issues:
-- Check the documentation
-- Search existing issues
-- Create a new issue with detailed information
-
----
-
-**Built with ❤️ using React, FastAPI, and modern web technologies** 
